@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PORTFOLIO</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/dd266449f6.js" crossorigin="anonymous"></script>
+
+    </head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            <img src="images/logo.png.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#ABOUT">ABOUT</a></li>
+                <li><a href="#services">INTERNSHIPS</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+        </nav>
+    <div class="header-text">
+        <h1>Hi, I'm <span>SHERLIN JENEFA I M</span><br> From Chennai</h1>
+        <p>SOFTWARE STUDENT</p>
+    </div>
+</div>
+
+<!-------------about------------->
+<div id="ABOUT">
+    <div class="container">
+       <div class="row">
+         <div class="about-col-1">
+            <img src="images/user.png.jpg">
+         </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">ABOUT ME</h1>
+            <p>Highly motivated and passionate individual with a keen interest in the intersection 
+                of technology and creativity within the field of computer science. Known for dynamic 
+                personality and eagerness to learn, I bring a blend of technical expertise and creative 
+                problem-solving skills to every project. Committed to innovation and excellence, 
+                I thrive in dynamic environments and am dedicated to making meaningful contributions.
+            </p>
+             
+             
+                <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('SKILLS')">SKILLS</p>
+                <p class="tab-links" onclick="opentab('HOBBIES')">HOBBIES</p>
+                <p class="tab-links" onclick="opentab('EDUCATION')">EDUCATION</p>
+             </div>
+             <div class="tab-contents active-tab" id="SKILLS">
+                <ul>
+                    <li>Python</li>
+                    <li>C Programming</li>
+                    <li>Java(Basics)</li>
+                </ul>
+
+             </div>
+
+             <div class="tab-contents " id="HOBBIES">
+                <ul>
+                    <li>Singing</li>
+                    <li>Playing Violin</li>
+                    <li>Drawing</li>
+                    <li>Reading Books</li>
+                </ul>
+
+             </div>
+
+             <div class="tab-contents" id="EDUCATION">
+                <ul>
+                    <li><span>Zion Matriculation Higher Secondary School</span><br><span>2007-2019</span><br>SSLC - 80.2%</li>
+                    <li><span>Zion Matriculation Higher Secondary School</span><br><span>2019-2021</span><br>HSC - 88.033%</li>
+                    <li><span>KCG College of Technology</span><br><span>2021-2025</span><br>Computer Science and Engineering<br>CGPA - 7.79</li>
+                </ul>
+
+             </div>
+          
+            </div>
+       </div>
+    </div>
+</div>
+ 
+
+<!--services -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">INTERNSHIP</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>FULL STACK Internship</h2>
+                <p>Completed a one-month Full Stack Development internship<br>
+                    at BIGBUCKS INNOVATION PRIVATE LIMITED.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-shield-halved"></i>
+                <h2>CYBERSECURITY Internship</h2>
+                <p>Completed a one-month Cybersecurity internship<br>
+                    offered by Technohacks.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- -------------portfolio-------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">MY WORK</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png.jpg" alt="GOOGLE CYBERSECURITY CERTIFICATE">
+                <div class="layer">
+                    <h3>GOOGLE Cybersecurity Certificate</h3>
+                    <p>View my verified achievement from Coursera. 🔒 Exciting News! 🔒
+                        Thrilled to announce that I've successfully completed the Google 
+                        Cybersecurity Certificate program! </p>
+                    <a href="https://www.credly.com/badges/bbc53467-572d-4b2d-9ab7-5fee01a3898c/public_url">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png.jpg" alt="GOOGLE AI ESSENTIALS CERTIFICATE ">
+                <div class="layer">
+                    <h3>GOOGLE AI ESSENTIALS Certificate </h3>
+                    <p>i've obtained a new certification: Google AI Essesntials from Google!</p>
+                    <a href="https://www.credly.com/badges/4be69ea6-4bbb-48e9-b58d-ed4a9b915618/public_url">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png.jpg" alt="AWS Academy Cloud Architecting Certificate">
+                <div class="layer">
+                    <h3>AWS Certificate</h3>
+                    <p>Learnt the fundamentals of building IT infrastructure on AWS.</p>
+                    <a href="https://www.credly.com/badges/1bbd11ea-1b55-4406-90f0-16e8752d9556/public_url">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+            <div id="moreWork" style="display: none;">
+              <div class="work">
+                <img src="images/work-4.png.jpg" alt="Cybersecurity Analyst Job Simulation">
+                <div class="layer">
+                    <h3>Cybersecurity Analyst Job Simulation</h3>
+                    <p>Check out my simulation here.</p>
+                    <a href="https://lnkd.in/gAi-HWbA">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+              </div>
+            </div>
+        </div>
+        <a href="#" class="btn" id="viewMoreBtn">View More</a>
+
+<script>
+    document.getElementById("viewMoreBtn").addEventListener("click", function(event) {
+        event.preventDefault();
+        document.getElementById("moreWork").style.display = "block";  
+        this.style.display = "none"; // Hide button after clicking
+    });
+</script>
+
+    </div>
+</div>
+
+
+<!-- ---------contact--------------- -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">CONTACT ME</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> MAIL ID: sherlinjenefa2017@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> PHONE NO: 7845718287</p>
+                <div class="social-icons">
+                    <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://x.com/"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/917845718287?text=Hello%2C%20." target="_blank"><i class="fa-brands fa-whatsapp"></i>
+                    Chat on Whatsapp</a>
+                </div>
+                <a href="images/JENE CV Resume FINAL (1).pdf" download="btn btn2" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <p id="msg">hello</p>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © JENE.<i class="fa-solid fa-snowflake"></i> <i class="fa-solid fa-fire"></i> </p>
+    </div>
+ </div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    
+    }
+
+</script>
+
+<script>
+     
+     function openmenu() {
+    document.getElementById("sidemenu").style.right = "0";
+}
+
+function closemenu() {
+    document.getElementById("sidemenu").style.right = "-250px"; // Adjust width as needed
+}
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwRqCq1ha5OmjVC28FtTeyCH_ehH1cK_q-LXXmzTrfA7eQ9TwyBTdO2dFYdn5Roa4CX4w/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+    e.preventDefault();
+    
+    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+            msg.innerHTML = "Message sent successfully";
+            msg.style.opacity = "1";  // Show the message smoothly
+            
+            setTimeout(() => {
+                msg.style.opacity = "0";  // Hide the message smoothly after 5 seconds
+                form.reset();
+            }, 5000);
+        })
+        .catch(error => console.error('Error!', error.message));
+});
+
+
+  </script>
+
+</body>
+</html>
